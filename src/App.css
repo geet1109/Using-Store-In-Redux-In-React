@@ -1,0 +1,58 @@
+.maindiv{
+  background-image:linear-gradient(#ed6464 50%,whitesmoke 50%);
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+}
+.photo{
+  border-radius:50%;
+  /* background-color:pink; */
+  background-image:linear-gradient(yellow,brown,yellow,green,blue,indigo,violet,gray);
+  height:200px;
+  width:200px;
+  margin:10px;
+}
+label{
+  color:white;
+  font-size:20px;
+  font-weight:800;
+  margin:10px;
+}
+#totalAmount{
+  background-color:white;
+  color:gray;
+  font-weight:600;
+  border-radius:10px;
+  width:300px;
+  height:100px;
+  padding:10px;
+  font-size:32px;
+  text-align:center;
+  align-items:center;
+  margin:10px;
+}
+span{
+  font-size:10px;
+}
+.text{
+  border:1px solid black;
+  padding:10px;
+  border-radius:10px;
+  font-family:'arial';
+  font-size:14px;
+  margin:10px;
+  display:none;
+}
+.btn{
+  background-color:whitesmoke;
+  border: 1px solid whitesmoke;
+  color:hotpink;
+  padding:10px;
+  font-size:20px;
+  margin:10px;
+}
+.btn-container:hover .text{
+   display:block;
+}
